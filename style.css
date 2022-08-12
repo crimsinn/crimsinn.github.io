@@ -1,0 +1,96 @@
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+body {
+ background-color: #FDFCFC; 
+  color:#005A75;
+  font-family: 'Gaegu', cursive;
+  font-weight: 900;
+  text-align: center;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-size: 50px;
+  padding-top: 0.5em;
+}
+h2 {
+  font-size: 30px;
+}
+h5 {
+  font-size: 20px;
+}
+a {
+  line-height: 2;
+  font-size: 20px;
+}
+
+/* STYLE IMAGES */
+img {
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border: 5px solid #C9E4CA;
+  border-radius: 20%;
+}
+
+#drawing {
+  border-radius: 8%;
+  margin-top: 1.5em;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.flex-container-vert {
+  display: flex;
+  flex-flow: column wrap;
+}
+/* STYLE NAV BAR */
+  li a {
+  color: #364958;
+  display: block;
+  width: 60px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+background-color: #FDFCFC;
+}
+  ul {
+  background-color: #C9E4CA;
+  overflow; hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* STYLE BUTTONS */
+a:link, a:visited {
+  color: #364958;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#myButton {
+  background-color: #FDFCFC;
+  font-size: 40px;
+  color: #005A75;
+  font-family: "Gaegu", cursive;
+  border: 5px solid #C9E4CA;
+  border-radius: 8px;
+  margin-top: 1em;
+          }
+#fact {
+  font-size: 20px;
+  padding: 1em;
+}
+
+a:hover, a:active {
+  background-color: #C9E4CA;
+}
+/* ADD MORE! */
